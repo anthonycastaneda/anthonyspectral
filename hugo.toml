@@ -9,7 +9,7 @@ theme = "spectral"
 [params]
 fancyTitle = "BAD ACID" # title for frontpage, may include image
 copyright = "Bad Acid"
-description = 'Music from Austin, TX by Keith Lafayette'
+description = 'Music from Austin, Texas'
 startbuttonText = "Listen"
 startbuttonLink = "#cta"
 body_is_markdown = true
@@ -32,7 +32,7 @@ title = "MUSIC"
 
 [params.one]
 enable = true
-title = '"I Like it, but it hurts my ears."'
+title = '"I like it, but it hurts my ears."'
 body = 'Noise punk trio exhumed from the schizoaffective mind of Lafayette. With chunky punk/metal riffs with shreddy noise and pop hooks, one revels in tinnitus and glee.'
 
 
@@ -57,8 +57,8 @@ enable = true
 [[params.two.section]]
 img = "img/pic01.jpg"
 img_alt = "blurry background: white/grey"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+title = '"It is very organized filthy<br />sounding music."'
+body = '-Two-time Grammy Award winner Danny Levin'
 
 [[params.two.section]]
 img = "img/pic02.jpg"

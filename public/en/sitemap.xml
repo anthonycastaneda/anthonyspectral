@@ -2,72 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://badacid.org/</loc>
+    <loc>http://localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://badacid.org/de/"
+                href="http://localhost:1313/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://badacid.org/es/"
+                href="http://localhost:1313/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://badacid.org/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://badacid.org/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://badacid.org/de/categories/"
+                href="http://localhost:1313/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://badacid.org/es/categories/"
+                href="http://localhost:1313/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://badacid.org/categories/"
+                href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>https://badacid.org/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://badacid.org/de/series/"
+                href="http://localhost:1313/de/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://badacid.org/es/series/"
+                href="http://localhost:1313/es/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://badacid.org/series/"
+                href="http://localhost:1313/series/"
                 />
   </url><url>
-    <loc>https://badacid.org/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://badacid.org/de/tags/"
+                href="http://localhost:1313/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://badacid.org/es/tags/"
+                href="http://localhost:1313/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://badacid.org/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url>
 </urlset>
