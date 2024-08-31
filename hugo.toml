@@ -1,0 +1,157 @@
+baseURL = "https://badacid.org/"
+title = "badacid"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+#googleAnalytics = "G-XXXXXXXXXX"
+
+[params]
+fancyTitle = "BAD ACID" # title for frontpage, may include image
+copyright = "Bad Acid"
+description = 'Music from Austin, TX by Keith Lafayette'
+startbuttonText = "Listen"
+startbuttonLink = "#cta"
+body_is_markdown = true
+#custom_css = "foo.css"
+#custom_sass = "bar.scss"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '#cta'
+title = "MUSIC"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = '"I Like it, but it hurts my ears."'
+body = 'Noise punk trio exhumed from the schizoaffective mind of Lafayette. With chunky punk/metal riffs with shreddy noise and pop hooks, one revels in tinnitus and glee.'
+
+
+[[params.one.icon]]
+icon = "fa-headphones"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "solid fa-music"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+img_alt = "blurry background: white/grey"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Tortor dolore feugiat<br />elementum magna'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[params.three]
+enable = true
+title = 'Accumsan mus tortor nunc aliquet'
+body = '''
+Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+'''
+
+[[params.three.feature]]
+icon = "fa-record-vinyl"
+title = "Arcu accumsan"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-om"
+title = "Ac Augue Eget"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-hat-wizard"
+title = "Foo bar"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-dharmachakra"
+title = "Baz kram"
+body = "merch@badacid.org"
+
+[[params.three.feature]]
+icon = "fa-eye"
+title = "Some latin text"
+body = "media@badacid.org"
+
+[[params.three.feature]]
+icon = "fa-moon"
+title = "Nothing important"
+body = "booking@badacid.org"
+
+[params.cta]
+enable = true
+title = "SKY BOMB"
+body = "Listen on Spotify and watch on YouTube"
+
+[[params.cta.link]]
+href = "https://open.spotify.com/artist/3cQUhWJrp5zmY6pEFXHRWB"
+text = "Listen"
+special = true
+
+[[params.cta.link]]
+href = "https://www.youtube.com/watch?v=UIsQXWdXkfQ"
+text = "Watch"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+12484345508"
+address = "PO Box 1234 <br />Austin, TX 78701<br />"
+email = "booking@badacid.org"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = "watch?v=UIsQXWdXkfQ"
+instagram = "https://www.instagram.com/badacidatx/"
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"
